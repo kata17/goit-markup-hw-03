@@ -53,9 +53,14 @@ p {
         text-transform: uppercase;
 }
 
-.menu-list {
+.nav-list {
       color: #404BBF;
 }
+
+.nav-item{
+
+}
+
 
 .menu-nav {
     color:  #2E2F42;
