@@ -14,27 +14,47 @@ a{
     color: currentColor;
     text-decoration: none;
 }
-ul, ol {
-    list-style: none;
-}
-h1,h2,h3,h4.h5,h6 {
-
-}
-
-p {
-
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
-
+h1,h2,h3,h4.h5,h6,p {
+margin: 0;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 
 /* header */
+.container{
+max-width: 1158px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.header-container,
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 .header-nav{
-    font-family: "Raleway", sans-serif;
-        flex-shrink: 0;
-       background: #FFF;
+   margin-right: auto; 
+}  
+
+button{
+    padding: 0;
+    border: none;
 }
 
 .logo-header {
@@ -55,10 +75,13 @@ p {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-reght: 76px;
 }
 
 .nav-list {
       color: #404BBF;
+        gap: 40px;
+       
 }
 
 .nav-item{
@@ -77,20 +100,28 @@ p {
         font-weight: 500;
         line-height:1.5; 
         letter-spacing: 0.02em;
+        padding: 24px 0;
+        display: block;
 }
 
 
-.heder-nav:hover{
+.nav-link:hover{
 color: #404BBF;
 }
-.heder-nav:focus{
+.nav-link:focus{
 color: #404BBF;
 }
 
 .adress {
     font-style: normal;
 }
+.address-list{
+    gap: 40px;
 
+}
+.address-item{
+
+}
 .contacts {
     color:  #434455;
     
@@ -101,6 +132,8 @@ color: #404BBF;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24, 0;
+        display: block;
 }
 .contacts:hover{
 color: #404bbf;
@@ -114,9 +147,11 @@ color: #404bbf;
 /* Main content */
 .solution {
 background: #2E2F42;
+width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    padding: 188px ;
 }
-
-
 
 .section-title {
     color: #FFF;
@@ -137,9 +172,18 @@ background: #2E2F42;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.64px;
+        letter-spacing: 0.04em;
         cursor: pointer;
-            }
+        border-radius: 4px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            padding: 16px 32px;
+            gap: 10;
+           display: inline-flex; 
+         align-items: flex-start;  
+}
+
+
+
 
 
 .section-button:hover{
@@ -157,6 +201,13 @@ background-color: #404BBF;
         background: #FFF;
 }
 
+.description-list{
+    display: flex;
+    gap: 24px;
+}
+.description-item{
+    width: calc(100% - 3 * 24) / 4;
+}
 .title {}
 
 .title-name {
@@ -169,7 +220,7 @@ color: #2E2F42;
     font-weight: 500;
     line-height: 1.2;
    
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 .title-text {
@@ -180,7 +231,7 @@ color: #2E2F42;
         font-style: normal;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 
 /* Main content team */
@@ -198,7 +249,7 @@ color: #2E2F42;
         font-style: normal;
         font-weight: 700;
         line-height:1.11;
-        letter-spacing: 0.72px;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
@@ -226,7 +277,7 @@ color: #2E2F42;
         font-weight: 500;
         line-height:1.2;
        
-        letter-spacing: 0.4px;
+        letter-spacing: 0.02em;
 }
 
 .team-item-desc {
@@ -240,7 +291,7 @@ color: #2E2F42;
         font-weight: 400;
         line-height: 1.5;
        
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02;
 }
 
 
@@ -262,7 +313,7 @@ color: #2E2F42;
         font-weight: 700;
         line-height: 1.11;
        
-        letter-spacing: 0.72px;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
@@ -288,7 +339,7 @@ color: #2E2F42;
         font-weight: 500;
         line-height: 1.2;
         
-        letter-spacing: 0.4px;
+        letter-spacing: 0.02em;
 }
 .portfolio-item-desc{
     color:  #434455;
@@ -300,7 +351,7 @@ color: #2E2F42;
         font-weight: 400;
         line-height:1.5;
        
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 /* footer */
 .footer {
@@ -317,7 +368,7 @@ color: #2E2F42;
         font-weight: 700;
         line-height: 1.17;
         
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
       
           
@@ -337,7 +388,7 @@ color: #2E2F42;
         font-weight: 700;
         line-height: 1.17;
        
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
@@ -351,7 +402,7 @@ color: #2E2F42;
         font-weight: 400;
         line-height: 1.5;
        
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
         
 }
 
