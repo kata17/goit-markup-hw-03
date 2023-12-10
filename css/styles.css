@@ -235,13 +235,12 @@ color: #2E2F42;
 }
 
 /* Main content team */
-.
+
 .team {
     background-color: #f4f4fd;
     padding: 120px, 0;
 }
-color: var(--NAVY-BLUE, #2E2F42);
-text-align: center;
+
 
 
 .team-title {
