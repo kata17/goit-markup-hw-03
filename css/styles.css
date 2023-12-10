@@ -132,7 +132,7 @@ color: #404BBF;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding: 24, 0;
+        padding: 24px, 0;
         display: block;
 }
 .contacts:hover{
@@ -150,7 +150,7 @@ background: #2E2F42;
 width: 1440px;
     height: 600px;
     flex-shrink: 0;
-    padding: 188px ;
+    padding: 188px, 0;
 }
 
 .section-title {
@@ -235,10 +235,14 @@ color: #2E2F42;
 }
 
 /* Main content team */
-
+.
 .team {
     background-color: #f4f4fd;
+    padding: 120px, 0;
 }
+color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+
 
 .team-title {
     color: #2E2F42;
@@ -252,15 +256,12 @@ color: #2E2F42;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
+.team-list
 
 .team-item {
     
         padding-bottom: 32px;
-       
         justify-content: center;
-        
-       
-       
             background: #FFF;
          
 
@@ -282,16 +283,14 @@ color: #2E2F42;
 
 .team-item-desc {
     color:  #434455;
-        text-align: center;
-    
-      
+        text-align: center; 
         font-family: "Roboto";
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.5;
        
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
 
