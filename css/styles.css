@@ -241,7 +241,9 @@ color: #2E2F42;
     padding: 120px, 0;
 }
 
-
+.container{
+    
+}
 
 .team-title {
     color: #2E2F42;
@@ -256,7 +258,7 @@ color: #2E2F42;
         text-transform: capitalize;
 }
 .team-list{
-    
+
 }
 
 .team-item {
