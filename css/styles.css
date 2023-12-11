@@ -9,7 +9,7 @@ body {
     font-family: "Roboto", sans-serif, "Raleway",
         sans-serif;
     color: #434455;
-    background: #FFF;
+    background-color: #FFF;
     font-size: 16px;
 }
 a{
@@ -87,7 +87,7 @@ button{
     color: #404BBF;
         gap: 40px;
         
-        display: inline-flex;
+        display:flex;
             align-items: flex-start;
             
        
@@ -221,7 +221,7 @@ background-color: #404BBF;
     gap: 24px;
 }
 .description-item{
-    width: calc(100% - 3 * 24) / 4;
+    width: calc((100% - 72px) / 4);
 }
 .title {}
 
@@ -276,7 +276,7 @@ border-radius: 0px 0px 4px 4px;
         justify-content: center;
         align-items: center;
         gap: 8px;
-        padding bottom: 32px;
+        padding-bottom: 32px;
  }
 .team-title {
     color: #2E2F42;
