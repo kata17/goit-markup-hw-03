@@ -84,9 +84,12 @@ button{
 }
 
 .nav-list {
-      color: #404BBF;
+    color: #404BBF;
         gap: 40px;
-        display: flex;
+        
+        display: inline-flex;
+            align-items: flex-start;
+            
        
 }
 
@@ -107,7 +110,7 @@ button{
         line-height:1.5; 
         letter-spacing: 0.02em;
         padding: 24px 0;
-        display: block;
+        display:flex;
 }
 
 
@@ -252,7 +255,9 @@ color: #2E2F42;
     background-color: #f4f4fd;
     padding: 120px, 0;
 }
-
+img{
+    display: block;
+}
 .container{
 display: inline-flex;
     padding-bottom: 32px;
