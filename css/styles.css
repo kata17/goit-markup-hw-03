@@ -51,7 +51,7 @@ align-items: center;
 .header-nav {
     display: flex;
     align-items: center;
-    display: block;
+   
 }
 .header-nav{
    margin-right: auto; 
@@ -70,6 +70,7 @@ button{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-right: 76px;
 }
 
 .logo-span {
@@ -80,7 +81,7 @@ button{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-right: 76px;
+      
 }
 
 .nav-list {
@@ -88,7 +89,7 @@ button{
         gap: 40px;
         
         display:flex;
-            align-items: flex-start;
+            align-items: center;
             
        
 }
@@ -110,7 +111,7 @@ button{
         line-height:1.5; 
         letter-spacing: 0.02em;
         padding: 24px 0;
-        display:flex;
+        display:block;
 }
 
 
@@ -125,6 +126,7 @@ color: #404BBF;
     font-style: normal;
 }
 .address-list{
+    display: flex;
     gap: 40px;
 
 }
@@ -142,7 +144,7 @@ color: #404BBF;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding: 24px, 0;
+        padding: 24px 0;
         display: block;
 }
 .contacts:hover{
@@ -157,6 +159,7 @@ color: #404bbf;
 /* Main content */
 .solution {
 background: #2E2F42;
+padding: 188px 0;
 } 
  
 .container{
@@ -174,7 +177,7 @@ background: #2E2F42;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        padding-bottom: 48px;
+        margin: 0 auto 48px;
 }
 
 
@@ -192,9 +195,10 @@ background: #2E2F42;
         border-radius: 4px;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
             padding: 16px 32px;
-            gap: 10;
-           display: inline-flex; 
-         align-items: flex-start;  
+    display: block;
+    margin: 0 auto;
+           
+        
 }
 
 
@@ -214,10 +218,11 @@ background-color: #404BBF;
 .description {
         flex-shrink: 0;
         background: #FFF;
+        padding: 120px 0;
 }
 
 .description-list{
-    display: block;
+    display: flex;
     gap: 24px;
 }
 .description-item{
